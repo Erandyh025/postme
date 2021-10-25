@@ -21,13 +21,13 @@ const showPostModal = () => {
   };
 
 // Cuando se cargue todo el DOM
-window.addEventListener('load', () => {
-  MAIN = document.querySelector('#main');
-  MODAL_POST = document.querySelector('#modal-post-section');
-  BTN_SHOW_POST = document.querySelector('#btn-post-submit');
-  BTN_SHOW_POST.addEventListener('click', showPostModal);
-  BTN_CANCEL_POST = document.querySelector('#btn-post-cancel');
-  BTN_CANCEL_POST.addEventListener('click', closePostModal)
+window.addEventListener("load", () => {
+	MAIN = document.querySelector("#main");
+	MODAL_POST = document.querySelector("#modal-post-section");
+	BTN_SHOW_POST = document.querySelector("#btn-upload-post");
+	BTN_SHOW_POST.addEventListener("click", showPostModal);
+	BTN_CANCEL_POST = document.querySelector("#btn-post-cancel");
+	BTN_CANCEL_POST.addEventListener("click", closePostModal);
 });
 
 
